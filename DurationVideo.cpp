@@ -15,24 +15,24 @@ public:
     {
         return sec %= 13;
     }
-    void newDuration(int sec, int *nVal, int *idle)
+    void newDuration(int sec, int divSegm[2])
     {
         for (int p = 0; p < whole(sec); p++)
         {
             for (int n = 0; n < 3; n++)
-                *nVal += 1;
+                divSegm[0] += 1;
             for (int m = 0; m < 10; m++)
-                *idle += 1;
+                divSegm[1] += 1;
         }
         if (notwhole(sec) <= 3)
             for (int n = 0; n < notwhole(sec); n++)
-                *nVal += 1;
+                divSegm[0] += 1;
         else
         {
             for (int n = 0; n < 3; n++)
-                *nVal += 1;
+                divSegm[0] += 1;
             for (int m = 0; m < (notwhole(sec) - 3); m++)
-                *idle += 1;
+                divSegm[1] += 1;
         }
     }
 };
@@ -58,33 +58,34 @@ public:
 class Communication
 {
 public:
-    void times(int time[3])
+    //В массивах, хранящих время, первый элемент хранит часы, второй - минуты, третий - секунды
+    int timeVideo[3] = {}, newTimeForValue[3] = {}, newTimeForIdle[3] = {};
+    //Первый элемент - просмотренная длительность видео, второй - пропущенная;
+    int dividedSegments[2] = {};
+    void times()
     {
         cout << "Введите длительность видео.\nЧасов:  ";
-        cin >> time[0];
+        cin >> timeVideo[0];
         cout << "Минут:  ";
-        cin >> time[1];
+        cin >> timeVideo[1];
         cout << "Секунд: ";
-        cin >> time[2];
+        cin >> timeVideo[2];
     }
-    void Finish(int Watch[3], int notWatch[3])
+    void Finish()
     {
-        cout << "\nПросмотренное время составляет " << Watch[0] << ":" << Watch[1] << ":" << Watch[2] << "\n";
-        cout << "А непросмотренное " << notWatch[0] << ":" << notWatch[1] << ":" << notWatch[2] << "\n\n";
+        cout << "\nПросмотренное время составляет " << newTimeForValue[0] << ":" << newTimeForValue[1] << ":" << newTimeForValue[2] << "\n";
+        cout << "А непросмотренное " << newTimeForIdle[0] << ":" << newTimeForIdle[1] << ":" << newTimeForIdle[2] << "\n\n";
     }
 };
 
 int main()
 {
-    //В массивах, хранящих время, первый элемент хранит часы, второй - минуты, третий - секунды
-    int time[3] = {}, newTimeForValue[3] = {}, newTimeForIdle[3] = {};
-    int newValue = 0, idle = 0; //newValue - просмотренная длительность видео, idle - пропущенная;
     Duration Dur;
     Communication Info;
     Count Transfer;
-    Info.times(time);
-    Dur.newDuration(Transfer.countInSec(time), &newValue, &idle);
-    Transfer.countOutSec(newValue, newTimeForValue);
-    Transfer.countOutSec(idle, newTimeForIdle);
-    Info.Finish(newTimeForValue, newTimeForIdle);
+    Info.times();
+    Dur.newDuration(Transfer.countInSec(Info.timeVideo), Info.dividedSegments);
+    Transfer.countOutSec(Info.dividedSegments[0], Info.newTimeForValue);
+    Transfer.countOutSec(Info.dividedSegments[1], Info.newTimeForIdle);
+    Info.Finish();
 }
