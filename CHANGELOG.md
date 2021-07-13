@@ -3,23 +3,18 @@
 ## vX.X.X (DATE)
 
 #### Bug Fixes:
-
 - [# XXX](https : / / github . com / XXX) DESCRIPTION
 
 #### Invalid Fixed:
-
 - [# XXX](https : / / github . com / XXX) DESCRIPTION
 
 #### Documenting:
-
 - [# XXX](https : / / github . com / XXX) DESCRIPTION
 
 #### Duplicating:
-
 - [# XXX](https : / / github . com / XXX) DESCRIPTION
 
 #### Enhancements:
-
 - [# XXX](https : / / github . com / XXX) DESCRIPTION
 
 ---
@@ -27,11 +22,10 @@
 ## v0.2.0 (25 Jan 2021)
 
 #### Enhancements:
-- После отдыха в один месяц я решил сесть пересмотреть старые коды. Я почти все почти полностью коды переписал, сделав их уже процедурными программами, да и более красивее так коды выглядят. Для истории все старые коды я добавил в архив "furui code". Недавно я перешёл на Linux (если быть точнее - KDE Neon) и новые программы расчитаны на компиляцию только под Линукс, на Виндовсе не проверял. Но что с увереностью в 95% могу заключить, что русский язык будет работать только на Линуксе, а на Виндовсе будут только закарючки, так как я удалил переключение терминала со стандартной кодировки на кирилическую 1251 (что Виндовс требует).
+- After a month's rest, I decided to sit down to review the old codes. I rewrote almost all of the codes almost completely, making them already procedural programs, and the codes look more beautiful. For history, I added all the old codes to the "furui code" archive. Recently I switched to Linux (to be more precise - KDE Neon) and new programs are designed to be compiled only for Linux, I have not tested them on Windows. But that with 95% confidence I can conclude that the Russian language will work only on Linux, and on Windows there will be only clicks, since I removed the terminal switching from the standard encoding to Cyrillic 1251 (which Windows requires).
 
 ---
 
 ## v0.1.0 (27 Dec 2020)
 
-#### Update:
-- Опубликовал 10 простых проектиков
+#### Release
