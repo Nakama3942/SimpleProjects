@@ -1,7 +1,41 @@
+<!--
+[![template](https://img.shields.io/badge/Repository-template-darkred)](https://github.com/Nakama3942/template_rep)
+[![GitHub license](https://img.shields.io/github/license/Nakama3942/template_rep?color=darkorange&style=flat-square)](https://github.com/Nakama3942/template_rep/blob/main/LICENSE)
+-->
+
 # SimpleProjects
-## Описание
+## Overview
 Здесь я выкладываю простенькие проекты, которые мне доводилось писать. Эти проектики большого значения не несут, но эти коды можно использовать как часть других, бОльших проектов. Они могут быть не идеальны, но это и не нужно, так как их цель - отображение определённых алгоритмов. Я только учусь, и полезны эти работы будут тем, кто тоже учится.
-## Обновление
-После отдыха в полтора месяца я решил сесть пересмотреть старые коды. Я почти все почти полностью коды переписал, сделав их уже процедурными программами, да и более красивее так коды выглядят. Для истории все старые коды я добавил в архив "furui code". Недавно я перешёл на Linux (если быть точнее - KDE Neon) и новые программы расчитаны на компиляцию только под Линукс, на Виндовсе не проверял. Но что с увереностью в 95% могу заключить, что русский язык будет работать только на Линуксе, а на Виндовсе будут только закарючки, так как я удалил переключение терминала со стандартной кодировки на кирилическую 1251 (что Виндовс требует).
-## На заметку
-Пишу коды я в Visual Studio Code, установил расширения C/C++, One Dark Pro Italic, Bracket Pair Colorized, Indent rainbow, Better Comments, Image Preview, Vscode google translate и Settings Sync. Так мне очень удобно работать. До этого я работал на инструменте, с которым нас познакомили в университете: Dev-Cpp, но я решил полностью перейти на эту площадку. Так намного легче мне работать. Эта информация для тех, кто заметил изменения в моём написании кода (часть форматирования текста проводят утилиты), ну а такжу тем, кто ищет новые, более удобные среды разработки.
+
+## Usage
+Каждый код является просто решением задачи. Вам нужно:
+1. Самостоятельно в любом IDE создавать новый проект и в него копировать весь код;
+2. Либо в консоли прописывать команды для зборки типа:
+
+>g++ -Wall -c CommPay.cpp
+
+>g++ -no-pie -o CommPay CommPay.o
+
+## CHANGELOG
+- [CHANGELOG](https://github.com/Nakama3942/template_rep/blob/main/CHANGELOG.md)
+
+## CONTRIBUTING
+- [CONTRIBUTING](https://github.com/Nakama3942/template_rep/blob/main/CONTRIBUTING.md)
+
+## CODE_OF_CONDUCT
+- [CODE_OF_CONDUCT](https://github.com/Nakama3942/template_rep/blob/main/CODE_OF_CONDUCT.md)
+
+## PULL_REQUEST_TEMPLATE
+- [PULL_REQUEST_TEMPLATE](https://github.com/Nakama3942/template_rep/blob/main/.github/PULL_REQUEST_TEMPLATE.md)
+
+## Authors
+<table>
+    <tr>
+        <td align="center"><a href="https://github.com/Nakama3942"><img src="https://avatars.githubusercontent.com/u/73797846?s=400&u=a9b7688ac521d739825d7003a5bd599aab74cb76&v=4" width="100px;" alt=""/><br /><sub><b>Kalynovsky Valentin</b></sub></a></td>
+        <td></td>
+    </tr>
+    <tr>
+        <td></td>
+        <td></td>
+    </tr>
+</table>
