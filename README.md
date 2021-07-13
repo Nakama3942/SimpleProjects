@@ -1,32 +1,23 @@
-<!--
 [![template](https://img.shields.io/badge/Repository-template-darkred)](https://github.com/Nakama3942/template_rep)
-[![GitHub license](https://img.shields.io/github/license/Nakama3942/template_rep?color=darkorange&style=flat-square)](https://github.com/Nakama3942/template_rep/blob/main/LICENSE)
--->
+[![GitHub license](https://img.shields.io/github/license/Nakama3942/SimpleProjects?color=purple&style=flat-square)](https://github.com/Nakama3942/SimpleProjects/blob/main/LICENSE)
+
+[![CHANGELOG](https://img.shields.io/badge/here-CHANGELOG-yellow)](https://github.com/Nakama3942/SimpleProjects/blob/main/CHANGELOG.md)
+[![CONTRIBUTING](https://img.shields.io/badge/here-CONTRIBUTING-indigo)](https://github.com/Nakama3942/SimpleProjects/blob/main/CONTRIBUTING.md)
+[![CODE_OF_CONDUCT](https://img.shields.io/badge/here-CODE_OF_CONDUCT-darkgreen)](https://github.com/Nakama3942/SimpleProjects/blob/main/CODE_OF_CONDUCT.md)
+[![PULL_REQUEST_TEMPLATE](https://img.shields.io/badge/here-PULL_REQUEST_TEMPLATE-orange)](https://github.com/Nakama3942/SimpleProjects/blob/main/.github/PULL_REQUEST_TEMPLATE.md)
 
 # SimpleProjects
 ## Overview
-Здесь я выкладываю простенькие проекты, которые мне доводилось писать. Эти проектики большого значения не несут, но эти коды можно использовать как часть других, бОльших проектов. Они могут быть не идеальны, но это и не нужно, так как их цель - отображение определённых алгоритмов. Я только учусь, и полезны эти работы будут тем, кто тоже учится.
+Here I post simple projects that I have ever written. These projections are not very important, but these codes can be used as part of other, larger projects. They may not be perfect, but this is not necessary, since their purpose is to display certain algorithms. I am just learning, and these works will be useful to those who are also studying.
 
-## Usage
-Каждый код является просто решением задачи. Вам нужно:
-1. Самостоятельно в любом IDE создавать новый проект и в него копировать весь код;
-2. Либо в консоли прописывать команды для зборки типа:
+## Building
+Each code is just a solution to a problem. You need:
+1. Create a new project independently in any IDE and copy all the code into it;
+2. Or, in the console, write commands for assembling like:
 
 >g++ -Wall -c CommPay.cpp
 
 >g++ -no-pie -o CommPay CommPay.o
-
-## CHANGELOG
-- [CHANGELOG](https://github.com/Nakama3942/SimpleProjects/blob/main/CHANGELOG.md)
-
-## CONTRIBUTING
-- [CONTRIBUTING](https://github.com/Nakama3942/SimpleProjects/blob/main/CONTRIBUTING.md)
-
-## CODE_OF_CONDUCT
-- [CODE_OF_CONDUCT](https://github.com/Nakama3942/SimpleProjects/blob/main/CODE_OF_CONDUCT.md)
-
-## PULL_REQUEST_TEMPLATE
-- [PULL_REQUEST_TEMPLATE](https://github.com/Nakama3942/SimpleProjects/blob/main/.github/PULL_REQUEST_TEMPLATE.md)
 
 ## Authors
 <table>
