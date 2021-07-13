@@ -17,16 +17,16 @@
 >g++ -no-pie -o CommPay CommPay.o
 
 ## CHANGELOG
-- [CHANGELOG](https://github.com/Nakama3942/template_rep/blob/main/CHANGELOG.md)
+- [CHANGELOG](https://github.com/Nakama3942/SimpleProjects/blob/main/CHANGELOG.md)
 
 ## CONTRIBUTING
-- [CONTRIBUTING](https://github.com/Nakama3942/template_rep/blob/main/CONTRIBUTING.md)
+- [CONTRIBUTING](https://github.com/Nakama3942/SimpleProjects/blob/main/CONTRIBUTING.md)
 
 ## CODE_OF_CONDUCT
-- [CODE_OF_CONDUCT](https://github.com/Nakama3942/template_rep/blob/main/CODE_OF_CONDUCT.md)
+- [CODE_OF_CONDUCT](https://github.com/Nakama3942/SimpleProjects/blob/main/CODE_OF_CONDUCT.md)
 
 ## PULL_REQUEST_TEMPLATE
-- [PULL_REQUEST_TEMPLATE](https://github.com/Nakama3942/template_rep/blob/main/.github/PULL_REQUEST_TEMPLATE.md)
+- [PULL_REQUEST_TEMPLATE](https://github.com/Nakama3942/SimpleProjects/blob/main/.github/PULL_REQUEST_TEMPLATE.md)
 
 ## Authors
 <table>
